@@ -20,7 +20,7 @@ setup(name='cerclefolk.theme',
       url='http://svn.plone.org/svn/collective/',
       license='gpl',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['apuntador'],
+      namespace_packages=['cerclefolk'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[

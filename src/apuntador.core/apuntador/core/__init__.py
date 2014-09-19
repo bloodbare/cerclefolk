@@ -4,7 +4,7 @@ from zope.i18nmessageid import MessageFactory
 _ = MessageFactory('apuntador.core')
 
 import plone
-from behaviors import data_postprocessing as new_data_postprocessing
+# from behaviors import data_postprocessing as new_data_postprocessing
 
 # plone.app.event.dx.behaviors.data_postprocessing = new_data_postprocessing
 

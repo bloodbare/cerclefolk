@@ -3,7 +3,7 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:plone="http://namespaces.plone.org/plone"
     xmlns:faceted="http://namespaces.zope.org/faceted"
-    i18n_domain="apuntador.theme">
+    i18n_domain="cerclefolk.theme">
 
     <!-- Zope 3 browser resources -->
 
@@ -23,16 +23,16 @@
         />
 
     <!-- html widget for faceted navigation -->
-    <faceted:widget factory="apuntador.theme.browser.widgets_faceted.html.widget.Widget" />
+    <faceted:widget factory="cerclefolk.theme.browser.widgets_faceted.html.widget.Widget" />
 
     <!-- view selector widget for faceted navigation -->
-    <faceted:widget factory="apuntador.theme.browser.widgets_faceted.viewselector.widget.Widget" />
+    <faceted:widget factory="cerclefolk.theme.browser.widgets_faceted.viewselector.widget.Widget" />
 
     <!-- add esdeveniment widget for faceted navigation -->
-    <faceted:widget factory="apuntador.theme.browser.widgets_faceted.add_esdeveniment.widget.Widget" />
+    <faceted:widget factory="cerclefolk.theme.browser.widgets_faceted.add_esdeveniment.widget.Widget" />
 
     <!-- esdeveniment destacat widget for faceted navigation -->
-    <faceted:widget factory="apuntador.theme.browser.widgets_faceted.esdeveniment_destacat.widget.Widget" />
+    <faceted:widget factory="cerclefolk.theme.browser.widgets_faceted.esdeveniment_destacat.widget.Widget" />
 
     <browser:viewlet
         name="apuntador.footer"

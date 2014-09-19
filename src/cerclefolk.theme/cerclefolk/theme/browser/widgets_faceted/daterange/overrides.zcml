@@ -3,7 +3,7 @@
   xmlns:faceted="http://namespaces.zope.org/faceted"
   i18n_domain="eea">
 
-  <faceted:widget factory="apuntador.theme.browser.widgets_faceted.daterange.widget.Widget" />
+  <faceted:widget factory="cerclefolk.theme.browser.widgets_faceted.daterange.widget.Widget" />
 
   <browser:resource
     name="eea.facetednavigation.widgets.daterange.view.js"

@@ -30,7 +30,7 @@
                     tal:on-error="structure python:error_view(error=error, cid=wid)">
                     <div tal:attributes="id string:${wid}_start;">
                         <label tal:attributes="for string:$wid-start-input"
-                            i18n:domain="apuntador.theme" i18n:translate="">A partir de</label>
+                            i18n:domain="cerclefolk.theme" i18n:translate="">A partir de</label>
                         <input type="text" name="start" title="Start date" tal:attributes="
                             id string:$wid-start-input;
                             value default_start"
@@ -38,7 +38,7 @@
                     </div>
                     <div tal:attributes="id string:${wid}_end;">
                         <label tal:attributes="for string:$wid-end-input"
-                            i18n:domain="apuntador.theme" i18n:translate="">Fins a</label>
+                            i18n:domain="cerclefolk.theme" i18n:translate="">Fins a</label>
                         <input type="text" name="end" title="End date" tal:attributes="
                             id string:$wid-end-input;
                             value default_end"

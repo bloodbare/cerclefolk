@@ -16,7 +16,7 @@ EditSchema = Schema((
         widget=StringWidget(
             label=_(u'HTML'),
             description=_(u''),
-            i18n_domain="apuntador.theme"
+            i18n_domain="cerclefolk.theme"
         )
     ),
 ))

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from zope.i18nmessageid import MessageFactory
 
-_ = MessageFactory('apuntador.theme')
+_ = MessageFactory('cerclfolk.theme')
 
 
 def initialize(context):

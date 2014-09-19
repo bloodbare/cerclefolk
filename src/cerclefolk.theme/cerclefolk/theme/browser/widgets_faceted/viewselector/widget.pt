@@ -1,5 +1,5 @@
 <div class="faceted-widget faceted-viewseletor-widget"
-    i18n:domain="apuntador.theme" 
+    i18n:domain="cerclefolk.theme" 
     tal:define="error_view nocall:context/@@faceted.widget.error;
                 wid python:view.data.getId();
                 hidden python:view.hidden;

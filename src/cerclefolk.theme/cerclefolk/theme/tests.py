@@ -9,7 +9,7 @@ from Products.PloneTestCase import PloneTestCase as ptc
 from Products.PloneTestCase.layer import PloneSite
 ptc.setupPloneSite()
 
-import apuntador.theme
+import cerclefolk.theme
 
 
 class TestCase(ptc.PloneTestCase):
@@ -19,7 +19,7 @@ class TestCase(ptc.PloneTestCase):
         @classmethod
         def setUp(cls):
             fiveconfigure.debug_mode = True
-            ztc.installPackage(apuntador.theme)
+            ztc.installPackage(cerclefolk.theme)
             fiveconfigure.debug_mode = False
 
         @classmethod

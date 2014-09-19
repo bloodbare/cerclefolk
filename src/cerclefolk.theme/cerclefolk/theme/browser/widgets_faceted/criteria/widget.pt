@@ -1,5 +1,5 @@
 <div class="faceted-widget faceted-criteria-widget" style="display: none"
-     i18n:domain="apuntador.theme"
+     i18n:domain="cerclefolk.theme"
      tal:define="wid python:view.data.getId();
                  hidden python:view.hidden;
                  css string:faceted-widget faceted-criteria-widget;
