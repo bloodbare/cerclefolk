@@ -1,0 +1,2 @@
+""" Add esdeveniment widget
+"""

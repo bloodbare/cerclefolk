@@ -1,0 +1,61 @@
+<div class="faceted-widget faceted-text-widget" style="display: none"
+     i18n:domain="apuntador.theme" 
+     tal:define="error_view nocall:context/@@faceted.widget.error;
+                 wid python:view.data.getId();
+                 hidden python:view.hidden;
+                 default python:view.default or '';
+                 css string:faceted-widget faceted-text-widget;
+                 css python:hidden and css + ' faceted-widget-hidden' or css;"
+     tal:attributes="id string:${wid}_widget; class css">
+
+    <fieldset class="widget-fieldset" tal:define="title python:view.data.get('title', '')">
+
+        <div class="row-fluid">
+            <div class="span12 titol_widget">
+                <legend>
+                    <span tal:content="python:view.translate(title)" i18n:translate="">Widget Title</span>
+                    <img class="collapse_icon collapsable" src="++resource++apuntador.theme.images/arrow_up.png" data-toggle="collapse" 
+                        tal:attributes="data-target string:#${wid}_collapse" />
+                </legend>
+            </div>
+        </div>
+
+        <div class="row-fluid collapse in" tal:attributes="id string:${wid}_collapse">
+            <div class="span12 cos_widget">
+                <form action="." method="get" tal:on-error="structure python:error_view(error=error, cid=wid)">
+
+                    <label class="text-field" tal:attributes="for wid" tal:content="python:view.translate(title)" />
+
+                    <input type="text" tal:attributes="name string:${wid};
+                                                       id string:${wid};
+                                                       value python:default;"/>
+
+                    <input type="submit" class="searchButton" value="Search" 
+                        tal:attributes="name string:${wid}_button;
+                                        id string:${wid}_button;"
+                        i18n:attributes="value" />
+
+                    <div class="faceted-textwidget-place-all"
+                        tal:condition="not:view/data/onlyallelements|nothing">
+                        <input type="radio" checked="checked" 
+                            tal:attributes="name string:${wid}_place;
+                                            id string:${wid}_place_all;
+                                            value string:all" />
+                        <label tal:attributes="for string:${wid}_place_all"
+                            i18n:translate="">all items</label>
+                    </div>
+
+                    <div class="faceted-textwidget-place-current"
+                        tal:condition="not:view/data/onlyallelements|nothing">
+                        <input type="radio" tal:attributes="name string:${wid}_place;
+                                                            id string:${wid}_place_current;
+                                                            value string:current" />
+                        <label tal:attributes="for string:${wid}_place_current"
+                            i18n:translate="">in current results</label>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </fieldset>
+</div>

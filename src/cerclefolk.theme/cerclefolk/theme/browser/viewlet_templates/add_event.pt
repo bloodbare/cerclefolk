@@ -1,0 +1,5 @@
+<a id="add_event_button" 
+    tal:define="link view/linkAddEvent" 
+    tal:attributes="href link/url">
+    <i class="fa fa-plus"></i> <span tal:content="link/text" />
+</a>

@@ -1,0 +1,366 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: Laura Pérez (lpmayos) <l.perez@iskra.cat>\n"
+"Language-Team: Iskra <info@iskra.cat>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: ca\n"
+"Language-Name: Catalan\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: apuntador.core\n"
+
+#: apuntador/core/esdeveniment.py:339
+msgid " cada "
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:357
+msgid " de "
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:345
+msgid " del mes"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:345
+msgid " el "
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:360
+msgid " el dia "
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:348
+msgid " lultim "
+msgstr " l'últim "
+
+#: apuntador/core/esdeveniment.py:363
+msgid " repeticions"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:363
+msgid ", acaba despres de "
+msgstr ", acaba després de "
+
+#: apuntador/core/esdeveniment.py:367
+msgid ", acaba el "
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:132
+msgid "Adreça web amb més informació sobre l'esdeveniment. Afegiu http:// si es tracta d'un enllaç extern."
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:163
+msgid "Aquest acte va a paper?"
+msgstr ""
+
+#: apuntador/core/esdeveniment_templates/destacat_view.pt:50
+msgid "Aquest esdeveniment es repetirà els dies:"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:14
+msgid "Ascendent"
+msgstr ""
+
+#: apuntador/core/profiles/default/types/cicle.xml
+msgid "Cicle"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:59
+#: apuntador/core/esdeveniment.py:177
+#: apuntador/core/esdeveniment_templates/view.pt:159
+msgid "Cicles"
+msgstr ""
+
+#: apuntador/core/esdeveniment_templates/view.pt:43
+msgid "Comparteix aquest acte a les xarxes socials"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:20
+msgid "Data de publicació"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:22
+msgid "Data final"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:21
+msgid "Data inicial"
+msgstr ""
+
+#: apuntador/core/esdeveniment_templates/view.pt:103
+msgid "Dates"
+msgstr ""
+
+#: apuntador/core/esdeveniment_templates/view.pt:199
+msgid "Denuncia aquest esdeveniment"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:15
+msgid "Descendent"
+msgstr ""
+
+#: apuntador/core/profiles/default/types/descriptor.xml
+msgid "Descriptor"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:64
+#: apuntador/core/esdeveniment.py:182
+msgid "Descriptors"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:157
+msgid "Destacat?"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:136
+msgid "Es recomana que sigui una imatge rectangular horitzontal."
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:336
+msgid "Es repeteix "
+msgstr ""
+
+#: apuntador/core/profiles/default/types/esdeveniment.xml
+msgid "Esdeveniment apuntador"
+msgstr ""
+
+#: apuntador/core/esdeveniment_templates/view.pt:17
+msgid "Esdeveniment seleccionat"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:49
+#: apuntador/core/esdeveniment.py:167
+#: apuntador/core/esdeveniment_templates/view.pt:145
+msgid "Etiquetes"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:152
+msgid "Fi inscripció"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:144
+msgid "Hi ha inscripcions?"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:135
+msgid "Imatge de l'esdeveniment"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:148
+msgid "Inici inscripció"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:27
+msgid "Json"
+msgstr ""
+
+#: apuntador/core/esdeveniment_templates/view.pt:100
+msgid "Location"
+msgstr "Lloc"
+
+#: apuntador/core/esdeveniment_templates/view.pt:89
+msgid "Mapa de localització"
+msgstr ""
+
+#: apuntador/core/esdeveniment_templates/view.pt:130
+msgid "More occurrences of this event:"
+msgstr "Aquest esdeveniment es repetirà els dies:"
+
+#: apuntador/core/esdeveniment_templates/view.pt:85
+msgid "Més informació"
+msgstr ""
+
+#: apuntador/core/profiles/default/types/cicle.xml
+#: apuntador/core/profiles/default/types/descriptor.xml
+#: apuntador/core/profiles/default/types/esdeveniment.xml
+msgid "None"
+msgstr "Cap"
+
+#: apuntador/core/browser/formEsdeveniments.py:74
+msgid "Ordenar per"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:79
+msgid "Ordre"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:140
+msgid "Paraules clau"
+msgstr ""
+
+#: apuntador/core/esdeveniment_templates/view.pt:185
+msgid "Període d'inscripció"
+msgstr ""
+
+#: apuntador/core/profiles/default/types/portal.xml
+msgid "Portal"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:69
+#: apuntador/core/esdeveniment.py:187
+msgid "Portals"
+msgstr ""
+
+#: apuntador/core/profiles/default/types/public.xml
+msgid "Public"
+msgstr "Públic"
+
+#: apuntador/core/browser/formEsdeveniments.py:54
+#: apuntador/core/esdeveniment.py:172
+#: apuntador/core/esdeveniment_templates/view.pt:152
+msgid "Públic"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:45
+msgid "Que acabi com a màxim"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:41
+msgid "Que acabi com a mínim"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:37
+msgid "Que comeci com a màxim"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:33
+msgid "Que comenci com a mínim"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:84
+msgid "Sortida"
+msgstr ""
+
+#: apuntador/core/profiles/default/types/tag.xml
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: apuntador/core/esdeveniment_templates/destacat_view.pt:12
+msgid "Tancar"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:19
+msgid "Títol"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:131
+msgid "URL de l'esdeveniment"
+msgstr ""
+
+#: apuntador/core/browser/formEsdeveniments.py:26
+msgid "XML"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:98
+msgid "abril"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:102
+msgid "agost"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:90
+msgid "anys"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:106
+msgid "decembre"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:87
+msgid "dies"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:122
+msgid "dijous"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:119
+msgid "dilluns"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:120
+msgid "dimarts"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:121
+msgid "dimecres"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:124
+msgid "dissabte"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:125
+msgid "diumenge"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:123
+msgid "divendres"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:96
+msgid "febrer"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:95
+msgid "gener"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:101
+msgid "juliol"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:100
+msgid "juny"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:99
+msgid "maig"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:97
+msgid "març"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:89
+msgid "mesos"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:105
+msgid "novembre"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:104
+msgid "octubre"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:111
+msgid "primer"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:114
+msgid "quart"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:112
+msgid "segon"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:103
+msgid "setembre"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:88
+msgid "setmanes"
+msgstr ""
+
+#: apuntador/core/esdeveniment.py:113
+msgid "tercer"
+msgstr ""
+

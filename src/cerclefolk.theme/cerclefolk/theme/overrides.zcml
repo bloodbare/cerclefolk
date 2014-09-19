@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="cerclefolk.theme">
+
+    <includeOverrides file="browser/widgets_faceted/checkbox/overrides.zcml" />
+    <includeOverrides file="browser/widgets_faceted/select/overrides.zcml" />
+    <includeOverrides file="browser/widgets_faceted/sorting/overrides.zcml" />
+    <includeOverrides file="browser/widgets_faceted/text/overrides.zcml" />
+    <includeOverrides file="browser/widgets_faceted/daterange/overrides.zcml" />
+    <includeOverrides file="browser/widgets_faceted/criteria/overrides.zcml" />
+
+</configure>

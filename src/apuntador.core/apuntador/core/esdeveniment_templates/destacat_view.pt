@@ -1,0 +1,67 @@
+<div class="alert fade in">
+
+    <span class="sobretitol_destacat" i18n:translate="">Esdeveniment destacat</span>
+
+    <div class="esdeveniment_destacat_view row-fluid vevent" itemscope itemtype="http://schema.org/Event"
+         i18n:domain="apuntador.core"
+         tal:define="data nocall:view/data;
+                     dades_event_accessor view/get_dades_event_accessor">
+        <div class="span12 wrapper">
+            <div class="row-fluid">
+                <div class="span12 close_span">
+                    <button type="button" class="close" data-dismiss="alert" i18n:attributes="title" title="Tancar">×</button>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span3">
+                    <div id="container-foto">
+                        <div id="dummy"></div>
+                        <tal:co condition="context/event_image">
+                            <div id="element" tal:define="scales context/@@images;
+                                                          thumbnail python: scales.scale('event_image', width=2000, height=2000);"
+                                tal:attributes="style python:'background-image: url(' + thumbnail.url + ')'"></div>
+                        </tal:co>
+                        <tal:co condition="not: context/event_image">
+                            <div id="element" tal:define="imatge view/getEventImage;
+                                                          scales imatge/@@images;
+                                                          thumbnail python: scales.scale('image', width=2000, height=2000);"
+                                tal:attributes="style python:'background-image: url(' + thumbnail.url + ')'"></div>
+                        </tal:co>
+                    </div>
+                </div>
+                <div class="span9 texts">
+                    <div class="row-fluid">
+                        <div class="span6 col_esq">
+
+                            <a tal:attributes="href context/absolute_url; title context/Title">
+                                <span class="titol_esdev" itemprop="name" tal:content="context/Title" />
+                            </a>
+                            <p class="lloc" itemprop="location" tal:content="dades_event_accessor/location" />
+
+                            <!-- <tal:repl replace="structure view/get_html_dates" /> -->
+                            <tal:def tal:define="data nocall:view/data;
+                                                 start_tzname data/timezone;
+                                                 start_utcdelta python:data.start.tzinfo.utcoffset(data.start);
+                                                 start_utcoffset python:(start_utcdelta.days*86400+start_utcdelta.seconds)*100/60/60;">
+                                <tal:date replace="structure python:view.formatted_date(context)" />
+                                <div tal:define="occs view/next_occurrences;"
+                                     tal:condition="python:len(occs) > 1">
+                                    <br/><span i18n:translate="">Aquest esdeveniment es repetirà els dies:</span>
+                                    <ul class="dates_recursives">
+                                        <span tal:repeat="occ occs">
+                                            <tal:date replace="structure python:view.formatted_date(occ)" />
+                                        </span>
+                                    </ul>
+                                </div>
+                            </tal:def>
+
+                        </div>
+                        <div class="span6">
+                            <a tal:attributes="href context/absolute_url; title context/Title" tal:content="context/Description" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

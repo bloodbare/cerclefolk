@@ -1,0 +1,301 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: Laura Pérez (lpmayos) <l.perez@iskra.cat>\n"
+"Language-Team: Iskra <info@iskra.cat>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: ca\n"
+"Language-Name: Catalan\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: apuntador.theme\n"
+
+#: apuntador/theme/jbot/Products.PasswordResetTool.skins.PasswordReset.registered_notify_template.pt:22
+msgid "1- Clica al següent enllaç per activar el compte:"
+msgstr ""
+
+#: apuntador/theme/jbot/Products.PasswordResetTool.skins.PasswordReset.registered_notify_template.pt:23
+msgid "2- Un cop l'hagis clicat, configura la teva contrasenya."
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/daterange/widget.pt:32
+msgid "A partir de"
+msgstr ""
+
+#: apuntador/theme/jbot/Products.PasswordResetTool.skins.PasswordReset.pwreset_finish.pt:13
+msgid "AQUÍ"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/add_esdeveniment/widget.pt:21
+msgid "Afegir esdeveniment"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/add_esdeveniment/widget.py:15
+msgid "Afegir esdeveniment widget"
+msgstr ""
+
+#: apuntador/theme/jbot/Products.PasswordResetTool.skins.PasswordReset.registered_notify_template.pt:16
+msgid "Benvolgut/da"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:56
+#: apuntador/theme/browser/widgets_faceted/select/widget.py:39
+msgid "Catalog"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:26
+#: apuntador/theme/browser/widgets_faceted/daterange/widget.py:41
+#: apuntador/theme/browser/widgets_faceted/select/widget.py:21
+msgid "Catalog index"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:27
+#: apuntador/theme/browser/widgets_faceted/daterange/widget.py:42
+#: apuntador/theme/browser/widgets_faceted/select/widget.py:22
+msgid "Catalog index to use for search"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:91
+msgid "Checkboxes"
+msgstr ""
+
+#: apuntador/theme/jbot/eea.facetednavigation.browser.template.widgets.pt:90
+msgid "Comparteix la teva selecció personal"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/daterange/widget.py:61
+msgid "Control the range of yearsdisplayed in the year drop-down: either relative to today's year (-nn:+nn), relative to the currently selected year (c-nn:c+nn), absolute (nnnn:nnnn), or combinations of these formats (nnnn:-nn)."
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/daterange/widget.py:79
+msgid "Date range"
+msgstr ""
+
+#: apuntador/theme/jbot/Products.PasswordResetTool.skins.PasswordReset.registered_notify_template.pt:32
+msgid "De conformitat amb el que disposa la Llei Orgànica 15 /1999 de Protecció de Dades de Caràcter Personal ( LOPD ), l'informem que les dades personals voluntàriament facilitades amb el seu registre aquest lloc web, així com totes aquelles que es derivin o puguin demanar en el procés de registre seran tractades amb confidencialitat per Edualter Apuntador. Les seves dades personals seran conservades en una base de dades propietat d' Edualter. Per exercitar els drets d'accés, rectificació, cancel·lació i oposició previstos en la llei, pot dirigir-se al mateix espai web, on podrà accedir-hi introduint les seves dades d'accés confidencials i realitzar les modificacions que desitgi realitzar."
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/daterange/widget.py:51
+msgid "Default daterange (e.g. '2009/12/01=>2009/12/31')"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:80
+msgid "Default items (one per line)"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/select/widget.py:56
+msgid "Default selected item"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/sorting/widget.py:31
+msgid "Default sorting index (e.g. 'effective' or 'effective(reverse)')"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/text/widget.py:31
+msgid "Default string to search for"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:79
+#: apuntador/theme/browser/widgets_faceted/daterange/widget.py:50
+#: apuntador/theme/browser/widgets_faceted/select/widget.py:55
+msgid "Default value"
+msgstr ""
+
+#: apuntador/theme/jbot/Products.PasswordResetTool.skins.PasswordReset.registered_notify_template.pt:18
+msgid "El teu compte d'usuari del portal de l'Apuntador s'ha realitzat amb èxit, i el teu nom d'usuari és"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/criteria/widget.pt:18
+msgid "Eliminar criteris"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/criteria/widget.py:15
+msgid "Enable hide/show criteria"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/add_esdeveniment/widget.pt:21
+msgid "Fes clic aquí"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/sorting/widget.py:20
+msgid "Filter from vocabulary"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/criteria/widget.py:28
+msgid "Filters"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/daterange/widget.pt:40
+msgid "Fins a"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:57
+#: apuntador/theme/browser/widgets_faceted/select/widget.py:40
+msgid "Get unique values from catalog as an alternative for vocabulary"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/html/widget.py:17
+msgid "HTML"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/add_esdeveniment/widget.pt:18
+msgid "Identifica't"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/text/widget.py:39
+msgid "If this checkbox is checked, hides the choice to filter in all items or in current items only"
+msgstr ""
+
+#: apuntador/theme/jbot/Products.PasswordResetTool.skins.PasswordReset.pwreset_form.cpt:13
+msgid "Ja estàs a punt d'acabar el procés d'inscripció al portal. Només cal que estableixis la teva contrasenya omplint les caselles que tens a continuació i prement el botó 'Establir contrasenya'"
+msgstr ""
+
+#: apuntador/theme/jbot/Products.PasswordResetTool.skins.PasswordReset.pwreset_finish.pt:13
+msgid "La teva contrasenya s'ha configurat correctament. Ara només cal que cliquis"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:65
+msgid "Maximum items"
+msgstr ""
+
+#: apuntador/theme/jbot/Products.PasswordResetTool.skins.PasswordReset.registered_notify_template.pt:26
+msgid "Moltes gràcies per registrar-te!"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:66
+msgid "Number of items visible in widget"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:38
+msgid "Operator"
+msgstr ""
+
+#: apuntador/theme/jbot/Products.PasswordResetTool.skins.PasswordReset.registered_notify_template.pt:20
+msgid "Per acabar amb el procés només et falten dos passos:"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/add_esdeveniment/widget.pt:10
+msgid "Posa el teu esdeveniment<br />aquí"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/viewselector/widget.pt:13
+msgid "Propers esdeveniments"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/add_esdeveniment/widget.pt:18
+msgid "Registra't"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/criteria/widget.pt:15
+msgid "Remove all filters"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:72
+#: apuntador/theme/browser/widgets_faceted/select/widget.py:47
+msgid "Reverse options"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/text/widget.pt:33
+msgid "Search"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/text/widget.py:38
+msgid "Search in all elements only"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:39
+msgid "Search with AND/OR between elements"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/select/widget.py:67
+msgid "Select"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:73
+#: apuntador/theme/browser/widgets_faceted/select/widget.py:48
+msgid "Sort options reversed"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/sorting/widget.py:43
+msgid "Sorting"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/add_esdeveniment/widget.pt:2
+msgid "Tancar"
+msgstr ""
+
+#: apuntador/theme/jbot/eea.facetednavigation.views.preview-items.pt:23
+msgid "Tens"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/text/widget.py:51
+msgid "Text field"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/daterange/widget.py:60
+msgid "UI Calendar years range"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/criteria/widget.py:16
+msgid "Uncheck this box if you don't want hide/show criteria feature enabled on this widget"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/viewselector/widget.py:14
+msgid "View selector widget"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:47
+#: apuntador/theme/browser/widgets_faceted/select/widget.py:30
+msgid "Vocabulary"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/sorting/widget.py:21
+msgid "Vocabulary to use to filter sorting criteria. Leave empty for default sorting criteria."
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/checkbox/widget.py:48
+#: apuntador/theme/browser/widgets_faceted/select/widget.py:31
+msgid "Vocabulary to use to render widget items"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/esdeveniment_destacat/widget.py:15
+msgid "Widget esdeveniment destacat"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/text/widget.pt:44
+msgid "all items"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/text/widget.pt:53
+msgid "in current results"
+msgstr ""
+
+#. Default: "x ${fullname}, x ${member} x x ${set_password} x x ${DYNAMIC_CONTENT} --- x"
+#: apuntador/theme/jbot/Products.PasswordResetTool.skins.PasswordReset.registered_notify_template.pt:32
+msgid "mailtemplate_registered_user_body"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/add_esdeveniment/widget.pt:21
+msgid "per afegir el teu esdeveniment"
+msgstr ""
+
+#: apuntador/theme/jbot/Products.PasswordResetTool.skins.PasswordReset.pwreset_finish.pt:14
+msgid "per entrar al sistema."
+msgstr ""
+
+#: apuntador/theme/jbot/eea.facetednavigation.views.preview-items.pt:25
+msgid "recursos mostrats"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/add_esdeveniment/widget.pt:18
+msgid "si encara no ho has fet"
+msgstr ""
+
+#: apuntador/theme/browser/widgets_faceted/add_esdeveniment/widget.pt:18
+msgid "si ja tens un usuari"
+msgstr ""
+

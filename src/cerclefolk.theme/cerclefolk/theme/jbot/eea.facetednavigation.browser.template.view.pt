@@ -1,0 +1,64 @@
+<tal:left define="hidden python:request.set('disable_plone.leftcolumn', view.hide_left_column)" />
+
+<tal:right define="hidden python:request.set('disable_plone.rightcolumn', view.hide_right_column)" />
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US"
+    lang="en-US"
+    metal:use-macro="here/main_template/macros/master"
+    i18n:domain="eea">
+
+    <metal:jsslot fill-slot="javascript_head_slot">
+        <script type="text/javascript"
+            tal:content="string:jQuery(document).ready(function(evt){
+                Faceted.Load(evt, '${context/absolute_url}/');
+                });"></script>
+        <script type="text/javascript"
+            tal:content="string:jQuery(window).unload(function(){
+                Faceted.Unload();
+                });"></script>
+    </metal:jsslot>
+
+    <body>
+        <div metal:fill-slot="content-core">
+
+            <script type="text/javascript">
+                jQuery(document).ready(function($) {
+
+                    // change collapse_icon on click
+                    $('.collapse_icon').on('click', function() {
+                        if ($(this).attr('src') === '++resource++apuntador.theme.images/arrow_up.png') {
+                            $(this).attr('src', '++resource++apuntador.theme.images/arrow_down.png');
+                        } else {
+                            $(this).attr('src', '++resource++apuntador.theme.images/arrow_up.png')
+                        }
+                    });
+
+                });
+            </script>
+
+            <!-- Folder contents -->
+            <div class="faceted-form" metal:define-macro="widgets" id="faceted-form"
+                tal:define="mode view/mode | string:view" tal:attributes="data-mode mode">
+
+                <!-- Basic/Extended search -->
+                <div class="faceted-sections-buttons">
+                    <a href="#" class="faceted-sections-buttons-more" i18n:translate="">More filters</a>
+                    <a href="#" class="faceted-sections-buttons-less" i18n:translate="">Less filters</a>
+                </div>
+
+                <div class="container">
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <metal:widgets use-macro="here/@@faceted_widgets/macros/widgets" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Faceted version -->
+                <div style="display: none" id="faceted-version"
+                    tal:content="here/@@faceted_version|string:" />
+            </div>
+
+        </div>
+    </body>
+</html>

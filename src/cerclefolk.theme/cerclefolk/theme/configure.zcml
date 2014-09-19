@@ -1,0 +1,33 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:grok="http://namespaces.zope.org/grok"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="cerclefolk.theme">
+
+    <grok:grok package="." />
+
+    <five:registerPackage package="." initialize=".initialize" />
+
+    <includeDependencies package="." />
+
+    <include package=".browser" />
+
+    <browser:jbot directory="jbot" />
+
+    <i18n:registerTranslations directory="locales" />  
+
+    <plone:static name="cerclefolk.theme" directory="diazo_apuntador" type="theme" />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="cerclefolk.theme"
+        directory="profiles/default"
+        description="Installs the cerclefolk.theme package"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+</configure>

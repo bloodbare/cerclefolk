@@ -1,0 +1,30 @@
+<div class="faceted-widget faceted-criteria-widget" style="display: none"
+     i18n:domain="apuntador.theme"
+     tal:define="wid python:view.data.getId();
+                 hidden python:view.hidden;
+                 css string:faceted-widget faceted-criteria-widget;
+                 css python:hidden and css + ' faceted-widget-hidden' or css;"
+     tal:attributes="id string:${wid}_widget; class css">
+
+    <fieldset class="widget-fieldset faceted-criteria">
+
+        <div class="row-fluid">
+            <div class="span12 titol_widget">
+                <span class="titol">Criteris de cerca actius</span>
+                <span class="separador">/</span>
+                <a href="#" tal:attributes="id string:${wid}_reset"
+                    title="Remove all filters"
+                    i18n:attributes="title">
+                    <tal:block i18n:translate="">Eliminar criteris</tal:block>
+                </a>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span12 filtres_widget">
+                <dl tal:attributes="id wid"><dt></dt></dl>
+            </div>
+        </div>
+
+    </fieldset>
+</div>

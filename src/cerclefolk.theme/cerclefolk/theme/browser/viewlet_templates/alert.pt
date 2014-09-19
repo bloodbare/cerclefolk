@@ -1,0 +1,5 @@
+<div class="row" tal:define="message view/message" tal:condition="message">
+    <div class="span12">
+        <div tal:replace="message"></div>
+    </div>
+</div>

@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<object>
+ <order manager="collective.flexitopic.bottom" skinname="">
+  <viewlet name="collective.flexitopic.flexigrid"/>
+  <viewlet name="collective.flexitopic.resulttable"/>
+ </order>
+ <order manager="collective.flexitopic.form" skinname="">
+  <viewlet name="collective.flexitopic.searchform"/>
+ </order>
+ <order manager="plone.abovecontentbody" skinname="">
+  <viewlet name="collective.geo.kml.kmlcontentviewlet"/>
+ </order>
+ <order manager="collective.flexitopic.javascript" skinname="">
+  <viewlet name="collective.flexitopic.defaultjs"/>
+ </order>
+ <order manager="plone.belowcontentbody" skinname="">
+  <viewlet name="collective.geo.kml.kmlbelowcontentviewlet"/>
+ </order>
+ <order manager="collective.flexitopic.top" skinname="">
+  <viewlet name="collective.geo.flexitopic.map"/>
+  <viewlet name="collective.flexitopic.about"/>
+  <viewlet name="collective.flexitopic.subtopics"/>
+ </order>
+ <order manager="collective.flexitopic.bottom" skinname="Plone Default">
+  <viewlet name="collective.flexitopic.flexigrid"/>
+  <viewlet name="collective.flexitopic.resulttable"/>
+ </order>
+ <order manager="collective.flexitopic.form" skinname="Plone Default">
+  <viewlet name="collective.flexitopic.searchform"/>
+ </order>
+ <order manager="plone.abovecontentbody" skinname="Plone Default">
+  <viewlet name="collective.geo.kml.kmlcontentviewlet"/>
+ </order>
+ <order manager="plone.abovecontent" skinname="Plone Default">
+  <viewlet name="plone.path_bar"/>
+ </order>
+ <order manager="plone.belowcontentbody" skinname="Plone Default">
+  <viewlet name="plone.belowcontentbody.relateditems"/>
+  <viewlet name="plone.abovecontenttitle.documentactions"/>
+  <viewlet name="collective.geo.kml.kmlbelowcontentviewlet"/>
+ </order>
+ <order manager="collective.flexitopic.javascript" skinname="Plone Default">
+  <viewlet name="collective.flexitopic.defaultjs"/>
+ </order>
+ <order manager="plone.belowcontent" skinname="Plone Default">
+  <viewlet name="plone.belowcontenttitle.keywords"/>
+  <viewlet name="plone.nextprevious"/>
+  <viewlet name="plone.manage_portlets_fallback"/>
+ </order>
+ <order manager="plone.portalfooter" skinname="Plone Default">
+  <viewlet name="plone.footer"/>
+  <viewlet name="plone.colophon"/>
+  <viewlet name="plone.site_actions"/>
+ </order>
+ <order manager="plone.portalheader" skinname="Plone Default">
+  <viewlet name="plone.skip_links"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.multilingual.languageselector"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.searchbox"/>
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.global_sections"/>
+ </order>
+ <order manager="plone.portaltop" skinname="Plone Default">
+  <viewlet name="plone.header"/>
+ </order>
+ <order manager="plone.contentviews" skinname="Plone Default">
+  <viewlet name="plone.contentviews"/>
+  <viewlet name="plone.contentactions"/>
+ </order>
+ <order manager="collective.flexitopic.bottom" skinname="Plone Classic Theme">
+  <viewlet name="collective.flexitopic.flexigrid"/>
+  <viewlet name="collective.flexitopic.resulttable"/>
+ </order>
+ <order manager="collective.flexitopic.form" skinname="Plone Classic Theme">
+  <viewlet name="collective.flexitopic.searchform"/>
+ </order>
+ <order manager="plone.abovecontentbody" skinname="Plone Classic Theme">
+  <viewlet name="collective.geo.kml.kmlcontentviewlet"/>
+ </order>
+ <order manager="collective.flexitopic.javascript"
+    skinname="Plone Classic Theme">
+  <viewlet name="collective.flexitopic.defaultjs"/>
+ </order>
+ <order manager="plone.belowcontentbody" skinname="Plone Classic Theme">
+  <viewlet name="collective.geo.kml.kmlbelowcontentviewlet"/>
+ </order>
+ <order manager="plone.portalheader" skinname="Plone Classic Theme">
+  <viewlet name="plone.skip_links"/>
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.searchbox"/>
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.global_sections"/>
+ </order>
+ <order manager="plone.portaltop" skinname="Plone Classic Theme">
+  <viewlet name="plone.header"/>
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.path_bar"/>
+ </order>
+ <order manager="collective.flexitopic.javascript" skinname="Sunburst Theme">
+  <viewlet name="collective.flexitopic.defaultjs"/>
+ </order>
+ <order manager="plone.belowcontentbody" skinname="Sunburst Theme">
+  <viewlet name="collective.geo.kml.kmlbelowcontentviewlet"/>
+ </order>
+ <order manager="collective.flexitopic.bottom" skinname="Sunburst Theme">
+  <viewlet name="collective.flexitopic.flexigrid"/>
+  <viewlet name="collective.flexitopic.resulttable"/>
+ </order>
+ <order manager="collective.flexitopic.form" skinname="Sunburst Theme">
+  <viewlet name="collective.flexitopic.searchform"/>
+ </order>
+ <order manager="plone.abovecontentbody" skinname="Sunburst Theme">
+  <viewlet name="collective.geo.kml.kmlcontentviewlet"/>
+ </order>
+ <hidden manager="plone.portalheader" skinname="Plone Default">
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+ </hidden>
+ <hidden manager="plone.belowcontent" skinname="Plone Classic Theme">
+  <viewlet name="plone.belowcontenttitle.keywords"/>
+ </hidden>
+ <hidden manager="plone.portalfooter" skinname="Plone Classic Theme">
+  <viewlet name="plone.site_actions"/>
+ </hidden>
+ <hidden manager="plone.portalheader" skinname="Plone Classic Theme">
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+ </hidden>
+ <hidden manager="plone.abovecontent" skinname="Plone Classic Theme">
+  <viewlet name="plone.path_bar"/>
+ </hidden>
+ <hidden manager="plone.belowcontentbody" skinname="Sunburst Theme">
+  <viewlet name="plone.belowcontentbody.relateditems"/>
+ </hidden>
+ <hidden manager="plone.portalfooter" skinname="Sunburst Theme">
+  <viewlet name="plone.footer"/>
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="plone.colophon"/>
+  <viewlet name="apuntador.menu_footer"/>
+ </hidden>
+ <hidden manager="plone.portalheader" skinname="Sunburst Theme">
+  <viewlet name="apuntador.menu_header"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+  <viewlet name="plone.searchbox"/>
+ </hidden>
+ <hidden manager="plone.abovecontent" skinname="Sunburst Theme">
+  <viewlet name="plone.path_bar"/>
+ </hidden>
+ <hidden manager="plone.belowcontenttitle" skinname="Sunburst Theme">
+  <viewlet name="plone.belowcontenttitle.documentbyline"/>
+ </hidden>
+</object>

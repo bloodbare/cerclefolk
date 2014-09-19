@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<object name="esdeveniments" meta_type="Dexterity Container">
+ <criteria>
+  <criterion name="c4">
+   <property name="widget">text</property>
+   <property name="title">Cerca per paraula</property>
+   <property name="position">left</property>
+   <property name="section">default</property>
+   <property name="hidden">0</property>
+   <property name="index">SearchableText</property>
+   <property name="default"></property>
+   <property name="onlyallelements"></property>
+  </criterion>
+  <criterion name="c7">
+   <property name="widget">checkbox</property>
+   <property name="title">Cerca per públic</property>
+   <property name="position">left</property>
+   <property name="section">default</property>
+   <property name="hidden">0</property>
+   <property name="count">1</property>
+   <property name="sortcountable"></property>
+   <property name="hidezerocount">1</property>
+   <property name="index">esdeveniment_publics</property>
+   <property name="operator">or</property>
+   <property name="vocabulary">publics_vocabulary</property>
+   <property name="catalog"></property>
+   <property name="maxitems">10000</property>
+   <property name="sortreversed"></property>
+   <property name="default"></property>
+  </criterion>
+  <criterion name="c8">
+   <property name="widget">checkbox</property>
+   <property name="title">Cerca per tema</property>
+   <property name="position">left</property>
+   <property name="section">default</property>
+   <property name="hidden">0</property>
+   <property name="count">1</property>
+   <property name="sortcountable"></property>
+   <property name="hidezerocount">1</property>
+   <property name="index">esdeveniment_etiquetes</property>
+   <property name="operator">or</property>
+   <property name="vocabulary">etiquetes_vocabulary</property>
+   <property name="catalog"></property>
+   <property name="maxitems">10000</property>
+   <property name="sortreversed"></property>
+   <property name="default"></property>
+  </criterion>
+  <criterion name="c10">
+   <property name="widget">checkbox</property>
+   <property name="title">Cerca per cicle</property>
+   <property name="position">left</property>
+   <property name="section">default</property>
+   <property name="hidden">0</property>
+   <property name="count">1</property>
+   <property name="sortcountable"></property>
+   <property name="hidezerocount">1</property>
+   <property name="index">esdeveniment_cicles</property>
+   <property name="operator">or</property>
+   <property name="vocabulary">cicles_vocabulary</property>
+   <property name="catalog"></property>
+   <property name="maxitems">10000</property>
+   <property name="sortreversed"></property>
+   <property name="default"></property>
+  </criterion>
+  <criterion name="c11">
+   <property name="widget">checkbox</property>
+   <property name="title">Cerca per descriptor</property>
+   <property name="position">left</property>
+   <property name="section">default</property>
+   <property name="hidden">0</property>
+   <property name="count">1</property>
+   <property name="sortcountable"></property>
+   <property name="hidezerocount">1</property>
+   <property name="index">esdeveniment_descriptors</property>
+   <property name="operator">or</property>
+   <property name="vocabulary">descriptors_vocabulary</property>
+   <property name="catalog"></property>
+   <property name="maxitems">10000</property>
+   <property name="sortreversed"></property>
+   <property name="default"></property>
+  </criterion>
+  <criterion name="c12">
+   <property name="widget">checkbox</property>
+   <property name="title">Cerca per portal</property>
+   <property name="position">left</property>
+   <property name="section">default</property>
+   <property name="hidden">0</property>
+   <property name="count">1</property>
+   <property name="sortcountable"></property>
+   <property name="hidezerocount">1</property>
+   <property name="index">esdeveniment_portals</property>
+   <property name="operator">or</property>
+   <property name="vocabulary">portals_vocabulary</property>
+   <property name="catalog"></property>
+   <property name="maxitems">10000</property>
+   <property name="sortreversed"></property>
+   <property name="default"></property>
+  </criterion>
+  <criterion name="c6">
+   <property name="widget">daterange</property>
+   <property name="title">Data d'inici entre:</property>
+   <property name="position">left</property>
+   <property name="section">default</property>
+   <property name="hidden">0</property>
+   <property name="index">start</property>
+   <property name="default"></property>
+   <property name="calYearRange">c-10:c+10</property>
+  </criterion>
+  <criterion name="c1">
+   <property name="widget">checkbox</property>
+   <property name="title">Portal type</property>
+   <property name="position">left</property>
+   <property name="section">default</property>
+   <property name="hidden">1</property>
+   <property name="count">1</property>
+   <property name="sortcountable"></property>
+   <property name="hidezerocount"></property>
+   <property name="index">portal_type</property>
+   <property name="operator">or</property>
+   <property
+      name="vocabulary">eea.faceted.vocabularies.FacetedPortalTypes</property>
+   <property name="catalog"></property>
+   <property name="maxitems">5</property>
+   <property name="sortreversed">1</property>
+   <property name="default">esdeveniment</property>
+  </criterion>
+  <criterion name="c0">
+   <property name="widget">resultsperpage</property>
+   <property name="title">Results per page</property>
+   <property name="position">left</property>
+   <property name="section">default</property>
+   <property name="hidden">1</property>
+   <property name="start"></property>
+   <property name="end">27</property>
+   <property name="step">3</property>
+   <property name="default">9</property>
+  </criterion>
+  <criterion name="c5">
+   <property name="widget">viewselector</property>
+   <property name="title">Selecciona el tipus de vista</property>
+   <property name="position">center</property>
+   <property name="section">default</property>
+   <property name="hidden">0</property>
+  </criterion>
+  <criterion name="c3">
+   <property name="widget">criteria</property>
+   <property name="title">Current search</property>
+   <property name="position">center</property>
+   <property name="section">default</property>
+   <property name="hidden">0</property>
+   <property name="hidecriteriaenabled">1</property>
+  </criterion>
+  <criterion name="c9">
+   <property name="widget">esdeveniment_destacat</property>
+   <property name="title">Esdeveniment destacat</property>
+   <property name="position">top</property>
+   <property name="section">default</property>
+   <property name="hidden">0</property>
+  </criterion>
+ </criteria>
+</object>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<registry>
+    <record name="apuntador.alert">
+        <field type="plone.registry.field.TextLine">
+            <title>Alerta Apuntador</title>
+            <min>0</min>
+        </field>
+        <value></value>
+    </record>
+</registry>
