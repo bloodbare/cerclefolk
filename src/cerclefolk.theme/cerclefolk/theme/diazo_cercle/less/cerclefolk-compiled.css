@@ -3564,9 +3564,10 @@ ul.picker__list {
   background: #cccccc;
 }
 #portal-header {
-  margin: 0 auto 15px;
+  margin: 0 auto 0px;
   padding-top: 15px;
-  margin-bottom: 20px;
+  padding-bottom: 15px;
+  background-image: url('../image/header.png');
 }
 #portal-header #portal-logo {
   float: left;
