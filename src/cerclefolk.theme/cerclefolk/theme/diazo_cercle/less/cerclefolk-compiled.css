@@ -3563,11 +3563,13 @@ ul.picker__list {
 .jqtree-tree .jqtree-selected > .jqtree-element {
   background: #cccccc;
 }
+#content-header {
+  background-image: url('../image/header.png');
+}
 #portal-header {
   margin: 0 auto 0px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-image: url('../image/header.png');
 }
 #portal-header #portal-logo {
   float: left;
