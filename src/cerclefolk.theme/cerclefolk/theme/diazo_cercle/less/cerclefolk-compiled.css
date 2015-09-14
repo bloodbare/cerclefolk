@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -322,7 +323,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Indie Flower", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #4d4d4d;
@@ -339,12 +340,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #007bb3;
+  color: #e54747;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #004666;
+  color: #c41c1c;
   text-decoration: underline;
 }
 a:focus {
@@ -409,7 +410,7 @@ h1 a:focus,
 h2 a:focus,
 h3 a:focus {
   text-decoration: none;
-  border-bottom: 2px #004666 solid;
+  border-bottom: 2px #c41c1c solid;
 }
 h4,
 h5,
@@ -2198,7 +2199,7 @@ fieldset[disabled] .link-parent.active {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #007bb3;
+  color: #e54747;
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
   margin-left: -1px;
@@ -2214,7 +2215,7 @@ fieldset[disabled] .link-parent.active {
 }
 .listingBar > li a:hover,
 .listingBar > li a:focus {
-  color: #004666;
+  color: #c41c1c;
   background-color: #f2f1f1;
   border-color: 1px solid #e5e5e5;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -2226,8 +2227,8 @@ fieldset[disabled] .link-parent.active {
   z-index: 2;
   font-weight: 300;
   color: #ffffff;
-  background-color: #007bb3;
-  border-color: #007bb3;
+  background-color: #e54747;
+  border-color: #e54747;
   cursor: default;
 }
 .listingBar > .disabled > a,
@@ -2388,7 +2389,7 @@ fieldset[disabled] .link-parent.active {
 }
 .portalMessage a {
   font-weight: 300;
-  color: #005176;
+  color: #d11e1e;
 }
 .portalMessage > strong:before,
 .portalMessage > dt:before {
@@ -2641,7 +2642,7 @@ fieldset[disabled] .link-parent.active {
 }
 .portlet .portletContent table .cal_next_month.cal_has_events > a:hover,
 .portlet .portletContent table .cal_prev_month.cal_has_events > a:hover {
-  color: #004666;
+  color: #c41c1c;
 }
 .portlet .portletContent table .cal_next_month.cal_has_events > a:hover:after,
 .portlet .portletContent table .cal_prev_month.cal_has_events > a:hover:after {
@@ -2930,7 +2931,7 @@ fieldset[disabled] .link-parent.active {
 }
 .managedPortlet .portletContent table .cal_next_month.cal_has_events > a:hover,
 .managedPortlet .portletContent table .cal_prev_month.cal_has_events > a:hover {
-  color: #004666;
+  color: #c41c1c;
 }
 .managedPortlet .portletContent table .cal_next_month.cal_has_events > a:hover:after,
 .managedPortlet .portletContent table .cal_prev_month.cal_has_events > a:hover:after {
@@ -3082,7 +3083,7 @@ fieldset[disabled] .link-parent.active {
 }
 a.link-category:hover,
 a.link-category:focus {
-  color: #007bb3;
+  color: #e54747;
   text-decoration: none;
   cursor: pointer;
 }
@@ -3412,7 +3413,7 @@ body#visual-portal-wrapper.pat-plone #edit-zone .contenttype-news-item:after {
 }
 .picker__list-item--highlighted:hover,
 .picker--focused .picker__list-item--highlighted {
-  background: #007bb3;
+  background: #e54747;
   color: #fff;
 }
 li.picker__list-item {
@@ -3484,7 +3485,7 @@ ul.picker__list {
 }
 .picker__day--highlighted:hover,
 .picker__day--highlighted {
-  background: #007bb3;
+  background: #e54747;
   color: #fff;
 }
 .picker__day--outfocus {
@@ -3510,7 +3511,7 @@ ul.picker__list {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.17);
 }
 .pat-tablesorter th:hover {
-  color: #007bb3;
+  color: #e54747;
 }
 .pat-tablesorter .sortdirection {
   font-size: 75%;
@@ -3689,10 +3690,10 @@ ul.picker__list {
 .plone-nav > li > a:hover,
 .plone-nav > li > a:focus {
   text-decoration: none;
-  background-color: #9abdd6;
+  background-color: #c04343;
 }
 .plone-navbar {
-  background-color: #007bb3;
+  background-color: #e54747;
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
@@ -3788,8 +3789,8 @@ ul.picker__list {
   outline: 0;
 }
 .plone-navbar-toggle:hover {
-  background-color: #6499c0;
-  border-color: #4581ab;
+  background-color: #892e2e;
+  border-color: #622121;
 }
 .plone-navbar-toggle .icon-bar:after {
   content: "Menu";
@@ -3816,7 +3817,7 @@ ul.picker__list {
 .plone-navbar-nav > .selected > a:hover,
 .plone-navbar-nav > .selected > a:focus {
   color: white;
-  background-color: #9abdd6;
+  background-color: #c04343;
 }
 @media (min-width: 768px) {
   .plone-navbar-nav {
@@ -3933,10 +3934,10 @@ ul.picker__list {
   padding-bottom: 28px;
 }
 #portal-footer-wrapper a {
-  color: #16a1e3;
+  color: #c04343;
 }
 #portal-footer-wrapper a:hover {
-  color: #57beef;
+  color: #d37c7c;
 }
 #portal-footer-wrapper .portletWrapper {
   display: inline-block;
@@ -4207,7 +4208,7 @@ body.template-login_form #content-core .portletContent table .cal_next_month.cal
 body.template-logged_out #content-core .portletContent table .cal_next_month.cal_has_events > a:hover,
 body.template-login_form #content-core .portletContent table .cal_prev_month.cal_has_events > a:hover,
 body.template-logged_out #content-core .portletContent table .cal_prev_month.cal_has_events > a:hover {
-  color: #004666;
+  color: #c41c1c;
 }
 body.template-login_form #content-core .portletContent table .cal_next_month.cal_has_events > a:hover:after,
 body.template-logged_out #content-core .portletContent table .cal_next_month.cal_has_events > a:hover:after,
@@ -4318,7 +4319,7 @@ body.template-logged_out #content-core .portletFooter {
   overflow: hidden;
 }
 .cal_month {
-  background: #00afff;
+  background: #ee8a8a;
   font-weight: 300;
   display: block;
   color: #fff;
@@ -4496,13 +4497,13 @@ body.template-logged_out #content-core .portletFooter {
   text-shadow: none;
   font-weight: 300;
   background: none;
-  color: #007bb3;
+  color: #e54747;
 }
 .discussion .commentActions input:hover,
 .discussion .reply-to-comment-button:hover {
   text-decoration: underline;
   box-shadow: none;
-  color: #004666;
+  color: #c41c1c;
 }
 .discussion .commentActions input {
   margin-right: 6px;

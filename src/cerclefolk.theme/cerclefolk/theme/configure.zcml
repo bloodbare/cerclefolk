@@ -20,7 +20,7 @@
 
     <i18n:registerTranslations directory="locales" />  
 
-    <plone:static name="cerclefolk.theme" directory="diazo_apuntador" type="theme" />
+    <plone:static name="cerclefolk.theme" directory="diazo_cercle" type="theme" />
 
     <genericsetup:registerProfile
         name="default"
