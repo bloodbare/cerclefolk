@@ -1,1 +1,0 @@
-<tal:repl replace="structure context/aq_parent/view" />

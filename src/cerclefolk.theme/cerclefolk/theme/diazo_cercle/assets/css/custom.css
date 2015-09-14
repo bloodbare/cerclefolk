@@ -1,0 +1,37 @@
+/* 
+MUSICVENT CUSTOM STYLESHEET
+--------------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* ASSIGN CUSTOM FONT FOR HEADING */
+
+#homeNav li a, h3.head3, .eHead, .eSubHead, .eDetails h1, .eDetails p, #page-header h1, #page-header h1 span, .event-plus, .date-col h1, .event-details h3, .track-heading span, .playlist-heading, .widgetTitle, .qcForm textarea, h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Neue", Open sans, Arial, sans-serif;
+}
+
+/* ASSIGN CUSTOM FONT FOR CONTENT */
+
+body, #primary-nav li a > p, #primary-nav ul li ul li a, #sec-nav ul li a, #mobileNav > li > a, #page-content, #content-sorter ul li a, #content-sorter ul li:first-child, #content-meta ul li, .detail-meta li, #submit-tkt-form, ul.sortable-list > li:before, .hover-post-format span, .hover-post-format-text, .hover-post-metas, .jp-toggles {
+	font-family: "Open sans", Helvetica Neue, Arial, sans-serif;
+}
+
+/* ASSIGN CUSTOM PRIMARY/HIGHLIGHT COLOR */
+
+#logo, .flex-direction-nav a {
+	background-color: #00DF83;
+}
+#ajax-load, .blog-meta {
+	background-color: rgba(0,223,131,0.6); /* Enter Primary/Highlight Color value In Rgba Format */
+}
+#homeNav li a:hover, h3.head3, #primary-nav li.active a, #primary-nav li.active a:hover, #primary-nav li.active a i, #primary-nav li:hover.active a i, #primary-nav ul li ul li a:hover, #sec-nav ul li.active a, #sec-nav ul li.active a:hover, #mobileNav > li:hover > a, #page-header h1, #content-sorter ul li.active a, #content-sorter ul li.active a:hover, #content-meta ul.arrow-list li:nth-child(1), .detail-meta li i, .detail-meta li a:hover, .social-connect li i:hover, .track-heading span#th-title, .jp-toggles li a.jp-repeat-off, .jp-playlist li a:hover , .jp-playlist-current .track-play, .jp-playlist-current .track-title, #PriFooter a, .blog-meta .pf-heading a:hover, a.read-more, #pagiNation li a:hover, .qcForm .btn-success, .artistCol h3, ul.tabs li a.selected, a:hover, .event-base:hover h3 {
+	color: #00DF83;
+}
+.detail-meta, a.read-more, #pagiNation li a:hover, .qcForm .btn-success, #artistCol, ul.tabs li a.selected, .postContent a:hover, .fullwidth a:hover {
+	border-color: #00DF83;
+}

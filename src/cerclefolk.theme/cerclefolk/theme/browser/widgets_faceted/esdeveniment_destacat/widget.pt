@@ -1,7 +1,0 @@
-<div class="faceted-widget esdeveniment_destacat_widget"
-     tal:define="destacat view/get_esdeveniment_destacat"
-     tal:condition="destacat">
-
-    <tal:repl replace="structure destacat/destacat_view" />
-
-</div>

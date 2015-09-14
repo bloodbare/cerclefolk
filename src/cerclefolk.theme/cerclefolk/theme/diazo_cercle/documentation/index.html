@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>MUSICVENT Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mandar Shirke">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <style type="text/css">
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+</style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    </head>
+    
+<body data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container"> 
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+	<a class="brand" href="index.html">MUSICVENT</a> <!-- TIP: Change this for the name of your file -->
+     	<div class="nav-collapse">
+        <ul class="nav">
+              <li><a href="#top" class="active">Top</a></li>
+              <li><a href="#layout">Layout</a></li>
+              <li><a href="#styles">Styles</a></li>
+              <li><a href="#templates">Templates</a></li>
+              <li><a href="#javascript">JavaScript</a></li>
+              <li><a href="#plugins">Plugins</a></li>
+              <li><a href="#navigation">Navigation</a></li>
+              <li><a href="#form">Form</a></li>
+              <li><a href="#howto">How To's</a></li>
+              <li><a href="#credits">Credits</a></li>
+              <li><a href="http://themeforest.net/user/QuadCodes" target="_blank">Contact Me</a></li>
+          </ul>
+</div>
+	</div>
+		</div>
+			</div> <!-- End of Navbar -->
+
+<!-- Main Container Beginning -->			
+			
+<div class="container">
+    
+	<div class="masthead">
+	    <h1>MUSICVENT</h1>
+	    <p class="marketing-byline" style="margin-top: -3px;font-size: 16px;"><strong>Date :</strong> 04-02-14 | <strong>Version :</strong> 1.0 | <strong>Author :</strong> Mandar Shirke</p>
+	    <p>MUSICVENT is Clean & Responsive HTML 5 Music/Event Template</p>
+	
+	</div> <!-- masthead -->
+	
+   <div id="intro">
+    <p class="highlight hero-unit">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/QuadCodes" target="_blank">here</a>. Thanks so much!</p>
+  </div> <!-- intro -->
+      
+<section id="layout">
+	<div class="page-header">
+	  <h1>HTML <small>Structure & Layout</small></h1>
+	</div>
+
+<div class="row">
+    <div class="span3">
+
+    <p>MUSICVENT is a Responsive HTML Template. It consist of Header, Main Content, Widget Area & Footer. Here is Screenshot : </p>
+</div>   
+
+<div class="span9"> 
+    <div class="alert"><strong>NOTE : </strong>Html layout below is visible only if you are browsing through PC. For Tablet & Mobile, This layout will adapt to "Mobile Friendly Layout" enabling users "Ease of Browsing".</div>
+
+
+    
+	<img src="./assets/img/html-structure.png" alt="html-structure" />
+</div>
+</div>	
+
+</section> <!-- Layout -->
+      
+
+<section id="styles">
+    <div class="page-header">
+       <h1>Styles <small>Styles customization and highlights</small></h1>
+     </div>
+
+ <div class="alert alert-info"> <b>Primarily</b> there are 4 CSS files in this theme.</div>
+
+<div class="row">
+    <div class="span3">
+  <h3>Primary CSS</h3>
+  <p>Here's a list of the stylesheet files I'm using with this template, you can find more information opening each file:</p>
+</div>
+<div class="span9">
+        <table class="table table-bordered table-striped">
+              <thead>
+            <tr>
+                  <th>File Name</th>
+                  <th>Description</th>
+                </tr>
+          </thead>
+              <tbody>
+            <tr>
+                  <td><code>architecture.css</code></td>
+                  <td>This stylesheet is an architecture behind responsiveness of this template. It is also a generic reset file. Many browser interpret the default behavior of html elements differently. By using a general reset CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file. </td>
+                </tr>
+            <tr>
+                  <td><code>style.css</code></td>
+                  <td>Is responsible for all the styling for MUSICVENT Template. The file is separated into sections. Here is Table of Content. <br/><br/>
+<pre class="prettyprint">
+	*. GLOBAL
+	1. HOMEPAGE
+		1.1 MUSIC
+		1.2 SLIDE DESC
+		1.3 FEATURED BAR
+	2. LOGO		
+	3. NAVIGATION/HEADER
+		3.1 PRIMARY NAV
+		3.2 PRIMARY SUB NAV	
+		3.3 SECONDARY NAV
+		3.4 MOBILE NAV
+	4. PAGE
+		4.1 PAGE HEADER
+		4.2 PAGE CONTENT
+		4.3 CONTENT SORTER
+		4.4 CONTENT META
+		4.5 ARROW LIST
+		4.6 DETAIL META	
+	5. SORTABLE LISTS
+		5.1 ALBUM LIST
+		5.2 ARTIST LIST
+		5.3 EVENT LIST
+	6. ARTISTS
+	7. ALBUMS
+	8. JPLAYER
+		8.1 JPLAYER PLAYLIST
+	9. WIDGETS
+		9.1 FLICKR
+		9.2 SOCIAL LINKS
+		9.3 TEXT BLOCK
+	10. FOOTER
+	11. BLOG
+	12. GALLERY
+	13. MAP & CONTACT FORM
+		13.1 ADDRESS LIST
+		13.2 SOCIAL NETWORKS
+	14. TYPOGRAPHY
+		14.1 BLOCKQUOTE
+		14.2 DROPCAP
+	15. PLUGIN CSS
+		15.1 TIPSY
+		15.2 FLEX SLIDER
+		15.3 FULLSCREEN SLIDER/SUPERSIZED		
+	16. MISCELLANEOUS		
+	17. CONDITIONAL LAYOUT CSS FOR MOBILE / TABLET DEVICES [ MEDIA QUERIES ]
+		17.1 TABLETS
+		17.2 MOBILE PORTRAIT
+		17.3 MOBILE WIDE / LANDSCAPE     
+</pre>  
+
+If you would like to edit any specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.                 
+                  </td>
+            </tr>            
+            <tr>
+                  <td><code>custom.css</code></td>
+                  <td>Is purely optional CSS file. If you want to make changes within font-family, font-size OR Highlight color of the template, this is the way to go. Here the is the Basic structure of custom.css : <br/><br/>
+<pre class="prettyprint css">
+/* ASSIGN CUSTOM FONT FOR HEADING */
+
+#homeNav li a, h3.head3, .eHead, .eSubHead, .eDetails h1, .eDetails p, #page-header h1, #page-header h1 span, .event-plus, .date-col h1, .event-details h3, .track-heading span, .playlist-heading, .widgetTitle, .qcForm textarea, h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Neue", Open sans, Arial, sans-serif;
+}
+
+/* ASSIGN CUSTOM FONT FOR CONTENT */
+
+body, #primary-nav li a > p, #primary-nav ul li ul li a, #sec-nav ul li a, #mobileNav > li > a, #page-content, #content-sorter ul li a, #content-sorter ul li:first-child, #content-meta ul li, .detail-meta li, #submit-tkt-form, ul.sortable-list > li:before, .hover-post-format span, .hover-post-format-text, .hover-post-metas, .jp-toggles {
+	font-family: "Open sans", Helvetica Neue, Arial, sans-serif;
+}
+
+/* ASSIGN CUSTOM PRIMARY/HIGHLIGHT COLOR */
+
+#logo, .flex-direction-nav a {
+	background-color: #00DF83;
+}
+#ajax-load, .blog-meta {
+	background-color: rgba(0,223,131,0.6); /* Enter Primary/Highlight Color value In Rgba Format */
+}
+#homeNav li a:hover, h3.head3, #primary-nav li.active a, #primary-nav li.active a:hover, #primary-nav li.active a i, #primary-nav li:hover.active a i, #primary-nav ul li ul li a:hover, #sec-nav ul li.active a, #sec-nav ul li.active a:hover, #mobileNav > li:hover > a, #page-header h1, #content-sorter ul li.active a, #content-sorter ul li.active a:hover, #content-meta ul.arrow-list li:nth-child(1), .detail-meta li i, .detail-meta li a:hover, .social-connect li i:hover, .track-heading span#th-title, .jp-toggles li a.jp-repeat-off, .jp-playlist li a:hover , .jp-playlist-current .track-play, .jp-playlist-current .track-title, #PriFooter a, .blog-meta .pf-heading a:hover, a.read-more, #pagiNation li a:hover, .qcForm .btn-success, .artistCol h3, ul.tabs li a.selected, a:hover, .event-base:hover h3 {
+	color: #00DF83;
+}
+.detail-meta, a.read-more, #pagiNation li a:hover, .qcForm .btn-success, #artistCol, ul.tabs li a.selected, .postContent a:hover, .fullwidth a:hover {
+	border-color: #00DF83;
+}              
+</pre>                  
+This file will enable you to make changes within template style in ONE go. If you want to define custom style for the template, Simply add this custom.css stylesheet after other css stylesheets are loaded. So that it can override any previous css.                  
+                  
+                  </td>
+            </tr> 
+                        
+                                   
+          </tbody>
+            </table>
+      </div>
+        </div>
+    <hr />
+    <div class="row">
+	<div class="span3">
+	   <h3>Plugin CSS</h3>
+	   <p>MUSICVENT use few Plugins / Widgets to extend its functionality. List of those stylesheets is as follow : </p>
+	   
+	</div>
+
+<div class="span9">	
+		<table class="table table-bordered table-striped">
+              <thead>
+            <tr>
+                  <th>File Name</th>
+                  <th>Description</th>
+                </tr>
+          </thead>
+              <tbody>
+            <tr>
+                  <td><code>prettyPhoto.css</code></td>
+                  <td>Lightbox/Modal specific stylesheet.</td>
+            </tr>                                  
+          </tbody>
+            </table>
+<div class="alert"><strong>INFO :</strong> These stylesheets are required to work that specific Plugin / Widget properly. I recommend not to make any changes within these files unless you are familiar with that particular Plugin / Widget. </div>
+        </div>
+  </section>
+      <!-- Styles -->
+  
+  
+
+
+      <section id="templates">
+	<div class="page-header">
+	  <h1>Templates <small>Html Files</small></h1>
+	</div>
+	<div class="row">
+	  <div class="span3">
+	    <p>Altogether MUSICVENT includes 13 HTML files.</p>
+	  </div>
+	  <div class="span9">
+	    <table class="table table-bordered table-striped">
+	      <thead>
+	        <tr>
+	          <th>File Name</th>
+	          <th>Description</th>
+	        </tr>
+	      </thead>
+	      <tbody>
+	        <tr>
+	          <td><code>index.html</code></td>
+	          <td>Fullscreen slideshow Homepage with jPlayer.</td>
+	        </tr>
+	        <tr>
+	          <td><code>albums.html</code></td>
+	          <td>Alphabetically scrollable list of music albums.</td>
+	        </tr>
+	        <tr>
+	          <td><code>album-single.html</code></td>
+	          <td>Single album page with song playlist & other album specific details.</td>
+	        </tr>	        	        	        
+	        <tr>
+	          <td><code>artists.html</code></td>
+	          <td>Alphabetically scrollable list of artists.</td>
+	        </tr>
+	        <tr>
+	          <td><code>artist-single.html</code></td>
+	          <td>Single artist page with details.</td>
+	        </tr>
+	        <tr>
+	          <td><code>events.html</code></td>
+	          <td>Month-wise scrollable list of events.</td>
+	        </tr>	        	        	        	                
+	        <tr>
+	          <td><code>event-single.html</code></td>
+	          <td>Single event page with event details.</td>
+	        </tr>
+	        <tr>
+	          <td><code>blog.html</code></td>
+	          <td>List of all blog posts with different post formats.</td>
+	        </tr>	       
+	        <tr>
+	          <td><code>blog-single.html</code></td>
+	          <td>Single blog page with post content.</td>
+	        </tr>	        
+	        <tr>
+	          <td><code>gallery.html</code></td>
+	          <td>Image gallery which opens into lightbox [ PrettyPhoto ].</td>
+	        </tr>
+	        <tr>
+	          <td><code>fullwidth.html</code></td>
+	          <td>A Page with fullwidth, columns, headings, tabs & toggles.</td>
+	        </tr>
+	        <tr>
+	          <td><code>404.html</code></td>
+	          <td>An Error Page.</td>
+	        </tr>	        	        	        	        	        
+	        <tr>
+	          <td><code>contact.html</code></td>
+	          <td>A Contact Form for visitors.</td>
+	        </tr>	        
+	        </tbody>
+	    </table>
+	  </div>
+	</div>
+	<hr />
+
+  </section><!-- Templates -->
+  
+  
+      <section id="javascript">
+	<div class="page-header">
+	  <h1>JavaScript <small>JavaScript customization and highlights</small></h1>
+	</div>
+	<div class="row">
+	  <div class="span3">
+	    <h3>JavaScript Files</h3>
+	    <p>MUSICVENT uses following Javascript files .</p>
+	  </div>
+	  <div class="span9">
+	    <table class="table table-bordered table-striped">
+	      <thead>
+	        <tr>
+	          <th>File Name</th>
+	          <th>Description</th>
+	        </tr>
+	      </thead>
+	      <tbody>
+	        <tr>
+	          <td><code>jquery.js</code></td>
+	          <td>jQuery is a Javascript library that greatly reduces the amount of code that you must write. <span class="label label-info"><a href="http://jquery.com/" target="_blank" style="color:#fff">LINK</a></span></td>
+	        </tr>
+	        <tr>
+	          <td><code>jplayer.js</code></td>
+	          <td>jQuery based .mp3/video player plugin. <span class="label label-info"><a href="http://jplayer.org" target="_blank" style="color:#fff">LINK</a></span></td>
+	        </tr>
+	        <tr>
+	          <td><code>flexslider.js</code></td>
+	          <td>Responsive Slider Plugin. <span class="label label-info"><a href="http://www.woothemes.com/flexslider/" target="_blank" style="color:#fff">LINK</a></span></td>
+	        </tr>
+	        <tr>
+	          <td><code>jquery.prettyPhoto.js</code></td>
+	          <td>Preety Lightbox / Modal Plugin. <span class="label label-info"><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/" target="_blank" style="color:#fff">LINK</a></span></td>
+	        </tr>
+	        <tr>
+	          <td><code>library.js</code></td>
+	          <td>Some Required libraries.</td>
+	        </tr>	        	        	        
+	        <tr>
+	          <td><code>init.js</code></td>
+	          <td>Init all necessary js files/plugins etc. Javascript files mentioned above are basically Libraries OR Plugins, So you don't need to make any changes within them. You only need to configure them inside init.js. Here is Table of content for init.js <br/><br/>
+
+<pre class="prettyprint">
+// -- 1. HOMEPAGE --  //
+// -- 2. LOGO & NAV --  //
+// -- 3. FLEXSLIDER --  //
+// -- 4. ALPHABETICAL SORTING LIST --  //
+// -- 5. TIPSY --  //
+// -- 6. SCROLL SPY --  //
+// -- 7. SCROLL FUNCTION --  //
+// -- 8. EVENT MAP --  //
+// -- 9. PRETTYPHOTO --  //
+// -- 10. FITVIDS --  //
+// -- 11. JSOCIAL --  //
+// -- 12. SHORTCODES --  //
+// -- 13. CONTACT FORM --  //
+</pre>
+ 	  
+init.js is JQuery(document).ready(function(){} <br/><br/>
+
+If you would like to configure any specific Plugin, simply find the appropriate label in the JS file, and then scroll down until you find the appropriate JS that needs to be edited. <br/><br/>  
+	          </td>
+	        </tr>	        	        
+	        
+	      </tbody>
+	    </table>
+	  </div>
+	</div>
+	
+  </section><!-- JavaScript -->
+
+
+
+
+     <section id="plugins">
+	<div class="page-header">
+	  <h1>Plugins <small>To be configure</small></h1>
+	</div>
+	<div class="row">
+	  <div class="span3">
+	    	 <div class="alert alert-info"> <strong>INFO : </strong> To Configure any of the following Plugin, Open init.js, Look for plugin name & Edit Options. </div>
+	  </div>
+	  <div class="span9">
+	    <table class="table table-bordered table-striped">
+	      <thead>
+	        <tr>
+	          <th>File Name</th>
+	          <th>Description</th>
+	        </tr>
+	      </thead>
+	      <tbody>
+	        <tr>
+	          <td><code>init.js</code></td>
+	          <td>Fetches queries from your social networks like Facebook, Twitter, Flickr & Dribbble. <br/><br/>
+	          
+	          <strong>Flickr -</strong> Fetch latest Flickr images using Flickr ID :  <br/><br/>
+<pre class="prettyprint js linenums:247">
+// Flickr
+$('#flickr').jflickrfeed({
+	limit: 10,
+	qstrings: {
+	id: '52617155@N08' // Define Flickr ID //
+	},
+	itemTemplate: '… Link Goes Here …'
+	}, function(data) {
+	$('#flickr a').prettyPhoto();
+});
+</pre>	          
+	          </td>
+	        </tr>    
+	      </tbody>
+	    </table>
+	  </div>
+	</div>
+	
+  </section><!-- Plugins -->
+  
+
+      <section id="navigation">
+	<div class="page-header">
+	  <h1>Navigation <small>Menu Styles</small></h1>
+	</div>
+	<div class="row">
+	  <div class="span3">
+	    <p>MUSICVENT comes with 2 different navigations.</p>
+	  </div>
+	  <div class="span9">
+	    <table class="table table-bordered table-striped">
+	      <thead>
+	        <tr>
+	          <th>Navigation</th>
+	          <th>Description</th>
+	        </tr>
+	      </thead>
+	      <tbody>
+	        <tr>
+	          <td><code>Primary</code></td>
+	          <td>This is Standard Navigation built with nested unordered lists and links. If you are browsing through Mobile, Standard menu will be replaced by Native DropDown Menu which is more easy to navigate. So, This menu is only visible if you are browsing through PC OR Tablet. Example markup for Standard navigation is :<br/><br/>
+
+<pre class="prettyprint">
+&lt;nav id="primary-nav"&gt;
+	&lt;ul class="clearfix"&gt;
+		&lt;li class="active"&gt;
+			&lt;a href="./albums.html"&gt;
+				&lt;i class="icon-music-1"&gt;&lt;/i&gt;
+				&lt;p&gt;Albums&lt;/p&gt;
+			&lt;/a&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href="./album-single.html"&gt;Album Single&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Newest&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Popular&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/li&gt;
+		&lt;li&gt;… More Menu Goes Here … &lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;
+</pre>
+
+	          </td>
+	        </tr>	
+	        <tr>
+	          <td><code>Mobile</code></td>
+	          <td>If you are browsing through Mobile, Standard menu will automatically replaced by Mobile Friendly Navigation. So, This menu will be only visible on mobile devices. <br/><br/>
+
+	          </td>
+	        </tr>	        	        
+	        
+	      </tbody>
+	    </table>
+	  </div>
+	</div>
+	
+  </section><!-- Navigation -->
+      
+
+
+
+      <section id="form">
+	<div class="page-header">
+	  <h1>Form <small>Contact Form</small></h1>
+	</div>
+	<div class="row">
+	  <div class="span3">
+	    <p>MUSICVENT comes with Quote / Contact Form Powered by JQuery validation, Simple Captcha & Ajax.</p>
+	  </div>
+	  <div class="span9">
+	    <table class="table table-bordered table-striped">
+	      <thead>
+	        <tr>
+	          <th>Navigation</th>
+	          <th>Description</th>
+	        </tr>
+	      </thead>
+	      <tbody>
+	        <tr>
+	          <td><code>Contact / Quote Form</code></td>
+	          <td>Quote form with advanced input fields. It is located inside contact.html. Html markup for this Quote form is : <br/><br/>
+
+<pre class="prettyprint">
+&lt;form action="./assets/form/qcForm.php" id="formquote" name="formquote" class="qcForm" method="post"&gt;
+	&lt;ol class="form"&gt;
+		&lt;li&gt;&lt;label for="firstname"&gt;Name&lt;/label&gt;&lt;input type="text" name="firstname" class="firstname requiredField input-txt" value="Name" onfocus="if(this.value == 'Name') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Name';}" /&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;label for="email"&gt;Email&lt;/label&gt;&lt;input type="text" name="email" class="email requiredField input-txt" value="Email" onfocus="if(this.value == 'Email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email';}" /&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;label for="message"&gt;Message&lt;/label&gt;&lt;textarea name="message" class="message requiredField input-txt" onfocus="if(this.value == 'Enter Your Message') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter Your Message';}"&gt;Message&lt;/textarea&gt;&lt;/li&gt;									
+		&lt;li class="buttons"&gt;&lt;button type="submit" class="submit btn btn-success"&gt;&lt;i class="icon-envelope icon-white"&gt;&lt;/i&gt; Send Email &nbsp;&#9656;&lt;/button&gt;&lt;input type="hidden" name="submitted" id="submitted" value="true" /&gt;&lt;/li&gt;
+	&lt;/ol&gt;
+&lt;/form&gt; 
+</pre>
+
+To configure this form, Open "qcForm.php" located inside . . /assets/form/qcForm.php. It looks something like this : <br/><br/>
+
+<pre class="prettyprint">
+// Replace your@email.com 
+$mailTo = 'your@email.com';
+
+if ($_POST['formtype'] == 'contact-form') {
+	$firstname = $_POST['firstname'];
+	$email = $_POST['email'];
+	$subject = ('Contact Form').' [ '.$_SERVER["HTTP_HOST"].' ] ';
+	$message = $_POST['message'];
+	$body = ("Name: $firstname \n\nEmail: $email \n\nMessage: $message" );
+}
+
+$headers = ('From:') .' <'.$firstname.'>' . "\r\n" . ('Reply-To:') . $email;
+mail($mailTo, $subject, $body, $headers);
+</pre>
+& Replace <strong>"your@email.com"</strong> with your email id. This is the Email ID where you will receive all incoming mails. 
+	          </td>
+	        </tr>	        	        
+	        
+	      </tbody>
+	    </table>
+	  </div>
+	</div>
+	
+  </section><!-- Forms -->
+
+
+
+	<section id="howto">
+	  <div class="page-header">
+	    <h1>How To's <small>Some of the frequently asked questions for newbies</small></h1>
+	  </div>
+	  <ul style="list-style:none">
+	  	<li>
+	  		<h3>1. How to change body's Fullscreen Background ? </h3>
+	  		<p>=> Open <code>style.css</code> & Under *Global tag (on Line no : 74) replace "http://www.placehold.it/1280x1024&text=background+Image" with your Background Image.</p><br />
+	  	</li>
+	  	<li>
+	  		<h3>2. How to configure Homepage Fullscreen Slideshow ? </h3>
+	  		<p>=> Open <code>index.html</code> & Under <code>head</code> tag (onwards Line no : 50) replace <code>Slides Images</code> with your Background Images.</p><br />
+	  	</li>
+	  	<li>
+	  		<h3>3. How to configure Homepage Audio ? </h3>
+	  		<p>=> Open <code>index.html</code> & Under <code>head</code> tag (onwards Line no : 30) replace <code>.mp3 & .ogg</code> source files with your respective .mp3 & .ogg source files.</p><br />
+	  	</li>
+	  	<li>
+	  		<h3>3. How to configure Audio Playlist on album-single.html? </h3>
+	  		<p>=> Open <code>album-single.html</code> & Under <code>head</code> tag (onwards Line no : 36). You need to repeat below script for each track you want to include in the playlist.
+			<pre>
+			{
+				title:"Album Title Goes Here",
+				artist:"Album Artist Goes Here",
+				mp3:"http://yoursong.mp3",
+				oga:"http://yoursong.ogg",
+				soundcloud: "Link to soundcloud (Optional)",
+				itunes: "Link to itunes (Optional)"
+			},
+			</pre>	  		
+	  		</p><br />
+	  	</li>	  		  		  
+	  </ul>
+
+	</section><!-- Howto -->
+
+
+
+
+	<section id="credits">
+	  <div class="page-header">
+	    <h1>Credits Files <small>Some of your credits and sources</small></h1>
+	  </div>
+	  <p>I've used the following images, icons or other files as listed.</p>
+	 	<a href="#" target="_blank">Credits.txt</a>
+	</section><!-- Credits -->
+      
+
+	      <hr />
+
+<div class="goodbye">
+    <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+  </div>
+
+      <hr />
+
+<footer>
+    <p style="float:left">Documentation Template Crafted with &hearts; by <a href="http://themeforest.net/user/Ivor" target="_blank">Ivor</a></p> <p style="float:right">&copy; <a href="http://themeforest.net/user/QuadCodes" target="_blank">QUADCODES</a> 2014</p>
+</footer>
+
+</div><!-- /container --> 
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-transition.js"></script> 
+<script src="assets/js/bootstrap-alert.js"></script> 
+<script src="assets/js/bootstrap-modal.js"></script> 
+<script src="assets/js/bootstrap-dropdown.js"></script> 
+<script src="assets/js/bootstrap-scrollspy.js"></script> 
+<script src="assets/js/bootstrap-tab.js"></script> 
+<script src="assets/js/bootstrap-tooltip.js"></script> 
+<script src="assets/js/bootstrap-popover.js"></script> 
+<script src="assets/js/bootstrap-button.js"></script> 
+<script src="assets/js/bootstrap-collapse.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+graft src/cerclefolk
+graft docs/
+include *.cfg *.rst *.in

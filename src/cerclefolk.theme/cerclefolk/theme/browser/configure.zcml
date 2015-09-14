@@ -8,51 +8,34 @@
     <!-- Zope 3 browser resources -->
 
     <browser:resourceDirectory
-        name="apuntador.theme.images"
+        name="cerclefolk.theme.images"
         directory="images"
         />
 
     <browser:resourceDirectory
-        name="apuntador.theme.javascripts"
+        name="cerclefolk.theme.javascripts"
         directory="javascripts"
         />
 
     <browser:resourceDirectory
-        name="apuntador.theme.stylesheets"
+        name="cerclefolk.theme.stylesheets"
         directory="stylesheets"
         />
 
-    <!-- html widget for faceted navigation -->
-    <faceted:widget factory="cerclefolk.theme.browser.widgets_faceted.html.widget.Widget" />
-
-    <!-- view selector widget for faceted navigation -->
-    <faceted:widget factory="cerclefolk.theme.browser.widgets_faceted.viewselector.widget.Widget" />
-
-    <!-- add esdeveniment widget for faceted navigation -->
-    <faceted:widget factory="cerclefolk.theme.browser.widgets_faceted.add_esdeveniment.widget.Widget" />
-
-    <!-- esdeveniment destacat widget for faceted navigation -->
-    <faceted:widget factory="cerclefolk.theme.browser.widgets_faceted.esdeveniment_destacat.widget.Widget" />
-
     <browser:viewlet
-        name="apuntador.footer"
-        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-        class=".viewlets.FooterViewlet"
-        permission="zope2.View"
-        />
-
-    <browser:viewlet
-        name="apuntador.alert"
+        name="cerclefolk.alert"
         manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
         class=".viewlets.AlertViewlet"
         permission="zope2.View"
+        layer="cerclefolk.theme.browser.interfaces.IThemeSpecific"
         />
 
     <browser:viewlet
-        name="apuntador.add_event"
+        name="cerclefolk.add_event"
         manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
         class=".viewlets.AddEventViewlet"
         permission="zope2.View"
+        layer="cerclefolk.theme.browser.interfaces.IThemeSpecific"
         />
 
 </configure>

@@ -1,0 +1,6 @@
+[report]
+include =
+    src/cerclefolk/*
+omit =
+    */test*
+    */upgrades/*

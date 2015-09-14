@@ -1,4 +1,0 @@
-HISTORY
-=======
-
-* v0.1 - Primera versió

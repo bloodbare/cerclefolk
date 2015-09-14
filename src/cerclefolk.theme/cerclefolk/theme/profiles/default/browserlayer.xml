@@ -1,0 +1,6 @@
+<layers>
+    <layer
+        name="cerclefolk.theme"
+         interface="cerclefolk.theme.browser.interfaces.IThemeSpecific"
+         />
+</layers>

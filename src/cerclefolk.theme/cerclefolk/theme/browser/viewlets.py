@@ -20,21 +20,6 @@ class AlertViewlet(ViewletBase):
             return None
 
 
-class FooterViewlet(ViewletBase):
-    index = ViewPageTemplateFile('viewlet_templates/footer.pt')
-
-    def linksDocuments(self):
-        root = self.context.portal_url.getPortalObject()
-        portal_catalog = root.portal_catalog
-        portal_id = root.id
-
-        folder_path = '/' + portal_id + '/links-footer'
-        results = portal_catalog(path={'query': folder_path, 'depth': 1}, portal_type='Document')
-        if results:
-            return [{'title': a.Title, 'url': a.getURL()} for a in results]
-        return
-
-
 class AddEventViewlet(ViewletBase):
     index = ViewPageTemplateFile('viewlet_templates/add_event.pt')
 

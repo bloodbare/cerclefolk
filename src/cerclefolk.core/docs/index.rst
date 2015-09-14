@@ -1,0 +1,5 @@
+====================
+cerclefolk.core
+====================
+
+User documentation

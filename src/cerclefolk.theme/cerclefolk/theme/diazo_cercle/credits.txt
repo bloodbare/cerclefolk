@@ -1,0 +1,92 @@
+############ SCRIPTS / PLUGINS ###############
+
+------------------------------------------------------------------------------
+
+JQuery ~ by John Resig
+http://jquery.com
+
+------------------------------------------------------------------------------
+
+FlexSlider ~ by Woothemes
+http://flexslider.woothemes.com
+
+------------------------------------------------------------------------------
+
+PrettyPhoto / LightBox ~ by Stephane Caron
+http://www.no-margin-for-errors.com/blog/2011/03/31/prettyphoto-3-1-new-theme-and-ajax-support
+
+------------------------------------------------------------------------------
+
+JQuery flickr plugin ~ by Joel Sutherland
+http://www.newmediacampaigns.com/page/jquery-flickr-plugin
+
+------------------------------------------------------------------------------
+
+Ajax Contact Form ~ by Trevor Davis
+http://trevordavis.net/blog/ajax-forms-with-jquery
+
+------------------------------------------------------------------------------
+
+jPlayer ~ by Happyworm
+http://jplayer.org
+
+------------------------------------------------------------------------------
+
+JQuery FitVids ~ by Chris Coyier and Paravel
+http://fitvidsjs.com/
+
+------------------------------------------------------------------------------
+
+JQuery Supersized ~ by Build Internet
+http://buildinternet.com/project/supersized
+
+------------------------------------------------------------------------------
+
+jQuery Easing ~ by George McGinley Smith
+http://gsgd.co.uk/sandbox/jquery/easing/
+
+------------------------------------------------------------------------------
+
+Tipsy ~ by jason frame
+http://onehackoranother.com/projects/jquery/tipsy
+
+------------------------------------------------------------------------------
+
+Scrollspy ~ by mekwall
+http://jsfiddle.net/mekwall/up4nu/
+
+------------------------------------------------------------------------------
+
+reset.css
+http://meyerweb.com/eric/tools/css/reset
+
+------------------------------------------------------------------------------
+
+
+
+
+############ FONTS ###############
+
+------------------------------------------------------------------------------
+
+Google Font: Open Sans ~ by Steve Matteson
+http://www.google.com/webfonts/specimen/Open+Sans
+
+------------------------------------------------------------------------------
+
+Icons Fonts ~ by Font Awesome, Entypo, Zocial, Elusive
+http://fontello.com
+
+------------------------------------------------------------------------------
+
+
+
+
+############ IMAGES / PLACEHOLDERS ###############
+
+------------------------------------------------------------------------------
+
+All Placeholders ~ by Brent Spore
+http://www.placehold.it
+
+------------------------------------------------------------------------------
