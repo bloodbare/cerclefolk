@@ -328,7 +328,6 @@ body {
   line-height: 1.42857143;
   color: #4d4d4d;
   background-color: #fafafa;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 input,
@@ -4622,5 +4621,12 @@ body.template-logged_out #content-core .portletFooter {
 .fc-event-time,
 .fc-event-title {
   padding: 0 10px;
+}
+.photoAlbumEntryWrapper img {
+  width: 100%;
+}
+#edit-zone {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 /*# sourceMappingURL=++theme++cerclefolk/less/cerclefolk-compiled.css.map */
