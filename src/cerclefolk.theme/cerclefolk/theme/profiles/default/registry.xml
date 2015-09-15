@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<registry>
+    <record name="cerclefolk.alert">
+        <field type="plone.registry.field.TextLine">
+            <title>Alerta Cercle Folk</title>
+            <min>0</min>
+        </field>
+        <value></value>
+    </record>
+</registry>

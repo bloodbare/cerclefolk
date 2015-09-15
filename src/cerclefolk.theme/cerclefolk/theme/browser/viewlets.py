@@ -13,7 +13,7 @@ class AlertViewlet(ViewletBase):
     def message(self):
         registry = getUtility(IRegistry)
 
-        missatge = registry.records['apuntador.alert'].value
+        missatge = registry.records['cerclefolk.alert'].value
         if missatge != '':
             return missatge
         else:
