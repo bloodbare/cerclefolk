@@ -34,7 +34,7 @@ class AddEventViewlet(ViewletBase):
             membership = getToolByName(self.context, 'portal_membership')
             member = membership.getAuthenticatedMember()
             if membership.getHomeFolder(member.getId()):
-                url = membership.getHomeFolder(member.getId()).absolute_url() + '/++add++esdeveniment'
+                url = membership.getHomeFolder(member.getId()).absolute_url() + '/++add++Event'
             return {'url': url, 'text': 'Afegir esdeveniment'}
         else:
             return {'url': portal_url + '/login', 'text': "Identifica't per afegir un esdeveniment"}
