@@ -37,4 +37,4 @@ class AddEventViewlet(ViewletBase):
                 url = membership.getHomeFolder(member.getId()).absolute_url() + '/++add++Event'
             return {'url': url, 'text': 'Afegir esdeveniment'}
         else:
-            return {'url': portal_url + '/login', 'text': "Identifica't per afegir un esdeveniment"}
+            return None
