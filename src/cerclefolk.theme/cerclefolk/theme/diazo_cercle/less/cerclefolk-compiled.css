@@ -4639,4 +4639,9 @@ body.template-logged_out #content-core .portletFooter {
   padding: 10px;
   margin: 10px;
 }
+.template-event #formfield-form-widgets-IDublinCore-description,
+.template-event #formfield-form-widgets-IEventAttendees-attendees,
+.template-event #formfield-form-widgets-IVersionable-changeNote {
+  display: none;
+}
 /*# sourceMappingURL=++theme++cerclefolk/less/cerclefolk-compiled.css.map */
