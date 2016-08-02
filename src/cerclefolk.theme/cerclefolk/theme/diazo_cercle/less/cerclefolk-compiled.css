@@ -4629,4 +4629,14 @@ body.template-logged_out #content-core .portletFooter {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#personaltools-login {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  margin: 10px;
+}
+#personaltools-join {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  margin: 10px;
+}
 /*# sourceMappingURL=++theme++cerclefolk/less/cerclefolk-compiled.css.map */
